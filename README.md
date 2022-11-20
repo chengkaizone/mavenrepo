@@ -7,3 +7,9 @@ allprojects {
         maven { url "https://raw.githubusercontent.com/chengkaizone/mavenrepo/master" }
     }
 }
+
+module中的引用方式
+dependencies {
+    
+    implementation 'com.lineying.sdk:xxx:x.x.x'
+}
