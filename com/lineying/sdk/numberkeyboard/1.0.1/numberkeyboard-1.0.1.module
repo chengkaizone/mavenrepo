@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lineying.sdk",
+    "module": "numberkeyboard",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "numberkeyboard-1.0.1.aar",
+          "url": "numberkeyboard-1.0.1.aar",
+          "size": 416247,
+          "sha512": "db408865b7dc5403cd7bd3656ed381263cb4596b1470c1e785dabcad6aa6e8e5825b07568e7f603a4ab1b170dca39c9387d8f59c54c12bbe6459f95ac48c0031",
+          "sha256": "ac18072ab50eac6774b4b47d882bb317bd5a9b0ecbfc25dbd7e3775ae79d7c17",
+          "sha1": "df5fcccc0d16238a02be522707af7489df867e2a",
+          "md5": "84e9ff0c9fed1d604ac93d6a7436a95b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "numberkeyboard-1.0.1.aar",
+          "url": "numberkeyboard-1.0.1.aar",
+          "size": 416247,
+          "sha512": "db408865b7dc5403cd7bd3656ed381263cb4596b1470c1e785dabcad6aa6e8e5825b07568e7f603a4ab1b170dca39c9387d8f59c54c12bbe6459f95ac48c0031",
+          "sha256": "ac18072ab50eac6774b4b47d882bb317bd5a9b0ecbfc25dbd7e3775ae79d7c17",
+          "sha1": "df5fcccc0d16238a02be522707af7489df867e2a",
+          "md5": "84e9ff0c9fed1d604ac93d6a7436a95b"
+        }
+      ]
+    }
+  ]
+}
