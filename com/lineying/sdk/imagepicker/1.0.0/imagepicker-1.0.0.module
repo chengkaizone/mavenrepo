@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lineying.sdk",
+    "module": "imagepicker",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imagepicker-1.0.0.aar",
+          "url": "imagepicker-1.0.0.aar",
+          "size": 116398,
+          "sha512": "7227f78d41350b510eb0fd52ddeabc3e738976bb2c55443f11f43ce84a3338c65035145ffa6a1099a0cd01ab628658f87793716f0b9e350d688b32aeb193e4c4",
+          "sha256": "e1ac0e1ecb6f788b259a7274821c5bb087708945fc07592eaa987bc91480e019",
+          "sha1": "277fab14101edc12c0c22e17489ea23c877174c1",
+          "md5": "6614eebc25102fe0c9f8531d491e3e17"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imagepicker-1.0.0.aar",
+          "url": "imagepicker-1.0.0.aar",
+          "size": 116398,
+          "sha512": "7227f78d41350b510eb0fd52ddeabc3e738976bb2c55443f11f43ce84a3338c65035145ffa6a1099a0cd01ab628658f87793716f0b9e350d688b32aeb193e4c4",
+          "sha256": "e1ac0e1ecb6f788b259a7274821c5bb087708945fc07592eaa987bc91480e019",
+          "sha1": "277fab14101edc12c0c22e17489ea23c877174c1",
+          "md5": "6614eebc25102fe0c9f8531d491e3e17"
+        }
+      ]
+    }
+  ]
+}
