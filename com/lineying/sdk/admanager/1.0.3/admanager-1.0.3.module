@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lineying.sdk",
+    "module": "admanager",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "admanager-1.0.3.aar",
+          "url": "admanager-1.0.3.aar",
+          "size": 91066,
+          "sha512": "b56756215647ac6d6aa0a12da06aae1cfbfe32d724811e3f7aea7ff13521f853afc9ec110afa3ffe2aff79961d61fd9cd59490c0ae3990ec4c78c5449e8c5921",
+          "sha256": "34cbf6b166c7ee84b9490383777291e924e44add33cc624d58c55bee5ba2ffb4",
+          "sha1": "0cbfee9d69761b5720087131fbf0019217230e19",
+          "md5": "ddefe7fc2962be560c3441f43071322b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "admanager-1.0.3.aar",
+          "url": "admanager-1.0.3.aar",
+          "size": 91066,
+          "sha512": "b56756215647ac6d6aa0a12da06aae1cfbfe32d724811e3f7aea7ff13521f853afc9ec110afa3ffe2aff79961d61fd9cd59490c0ae3990ec4c78c5449e8c5921",
+          "sha256": "34cbf6b166c7ee84b9490383777291e924e44add33cc624d58c55bee5ba2ffb4",
+          "sha1": "0cbfee9d69761b5720087131fbf0019217230e19",
+          "md5": "ddefe7fc2962be560c3441f43071322b"
+        }
+      ]
+    }
+  ]
+}
